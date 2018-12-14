@@ -1,0 +1,21 @@
+extends layout
+
+block content
+  .container
+    br
+    .jumbotron
+      h1.display-4
+        | Send Message
+      br
+      input#name.form-control(placeholder='Name')
+      br
+      textarea#message.form-control(placeholder='Message')
+      br
+      button#send.btn.btn-success(type='button') Send
+    #messages
+
+block scripts
+  <script src='/socket.io/socket.io.js'></script>
+  <script>
+    include ../public/javascripts/index.js
+  </script>

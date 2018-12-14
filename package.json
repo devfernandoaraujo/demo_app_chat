@@ -1,0 +1,31 @@
+{
+  "name": "demo-app-chat",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "mongoose": "^5.3.16",
+    "morgan": "~1.9.0",
+    "pug": "^2.0.3",
+    "socket.io": "^2.2.0"
+  },
+  "description": "Demo chat project using socket.io, node.js and express",
+  "main": "app.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devfernandoaraujo/demo_app_chat.git"
+  },
+  "author": "Fernando M Araujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/devfernandoaraujo/demo_app_chat/issues"
+  },
+  "homepage": "https://github.com/devfernandoaraujo/demo_app_chat#readme"
+}
